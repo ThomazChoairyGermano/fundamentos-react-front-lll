@@ -3,7 +3,7 @@ import React from "react";
 export default props => {
     return (
         <div>
-            {props.olaMundo}
+            <span>{props.nome} <strong>{props.sobrenome}</strong></span>
         </div>
     )
 }
